@@ -1,0 +1,23 @@
+body{
+    background-color: azure;
+}
+div.jumbotron{
+    text-align: center;
+}
+div.main{
+    margin: auto;
+    text-align: center;
+    background-color: antiquewhite;
+}
+div.top, div.bot{
+    padding-top: 10px;
+    padding-bottom: 20px;    
+    text-align: center;
+    margin: auto;    
+}
+div.top{
+    background-color: rgb(196, 248, 255);
+}
+div.bot{
+    background-color: rgb(196, 212, 255);
+}
