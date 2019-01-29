@@ -1,4 +1,4 @@
-const wordBank = ["Minnesota","Iowa","Wisconsin","Illinois","Michigan","Ohio","Indiana"];
+const wordBank = ["conscience","cemetery","handkerchief","accommodate","liaison","supersede","pronunciation","recommend","abbreviation","deductible"];
 const correctGifs = [
     "https://media.giphy.com/media/26uTqJWUxDMgWc5pu/giphy.gif",
     "https://media.giphy.com/media/NEvPzZ8bd1V4Y/giphy.gif",
@@ -172,5 +172,5 @@ function hideRules(){
     while(thisNode.firstChild){
         thisNode.removeChild(thisNode.firstChild);
     }
-    document.getElementById('mOverRules').style.marginBottom = '20px';
+    document.getElementById('mOverRules').style.marginBottom = '5px';
 }

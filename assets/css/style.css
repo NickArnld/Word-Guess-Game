@@ -1,7 +1,8 @@
 body{
-    background-color: azure;
+    background-image: url("../images/binding_dark_@2X.png");
 }
 div.jumbotron{
+    background-image: url("../images/brickwall_@2X.png");
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -10,7 +11,8 @@ div.jumbotron{
 div.main{
     margin: auto;
     text-align: center;
-    background-color: antiquewhite;
+    /* background-color: rgba(160, 177, 253, 0.5); */
+    background-color: rgba(240, 248, 255, 0.5);
 }
 div.top, div.bot, div.gif-col{
     padding-top: 10px;
@@ -19,10 +21,10 @@ div.top, div.bot, div.gif-col{
     margin: auto;    
 }
 div.top{
-    background-color: rgb(196, 248, 255);
+    background-color: rgba(129, 168, 144, 0.7);
 }
 div.bot{
-    background-color: rgb(196, 212, 255);
+    background-color: rgba(181, 196, 238, 0.7);
 }
 #resetButton{
     margin-top: 10px; 
@@ -34,17 +36,30 @@ img#gif{
     margin: 0;
 }
 #mOverRules{
-    width: 50%;
+    width: 30%;
     margin: auto;
     color: white;
-    background-color: blueviolet;
-    margin-bottom:20px;
+    background-color: rgb(99, 124, 148);
+    margin-bottom:5px;
 }
 div#rules-div p{
-    width: 70%;
+    width: 50%;
     margin: auto;
     margin-top:0px;
-    margin-bottom:20px;
+    margin-bottom:10px;
     border-style: dashed;
     border-color: black;
+}
+.title{
+    font-family: 'Righteous', cursive;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+}
+@media only screen and (max-width: 700px){
+    .main{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 }

@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Righteous" rel="stylesheet">
     <script src="./assets/javascript/game.js"></script>
 </head>
 <body>
     <div class="jumbotron">        
-        <h1 class="">GIF-MAN</h1>
+        <h1 class="title">GIF-MAN</h1>
         <p>It's like hangman ...except no one dies... and there's gifs</p>
         <p id="mOverRules">Mouse Over to See Rules</p>
         <div id="rules-div"></div>
@@ -20,23 +21,23 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-10 main"> 
+        <div class="col-8 main"> 
             
             <div class="row">
                 <div class="col-7 bot">
-                    <h4>Your Guess:</h4>
+                    <h4 class="title">Your Guess:</h4>
                     <h4 id="curGuess"></h4>
                 </div>
             </div>
             <div class="row">
                 <div class="col-5 top">
-                    <h4>Guesses Remaining:</h4>
+                    <h4 class="title">Guesses Remaining:</h4>
                     <h5 id="guessRemaining"></h5>
-                    <h4>Letters Guessed:</h4>
+                    <h4 class="title">Letters Guessed:</h4>
                     <p id="guessesMade"></p>                    
                 </div>
             </div>
-            <button id="resetButton" type="button" class="btn btn-primary">Restart</button>            
+            <button id="resetButton" type="button" class="btn btn-dark">Restart</button>            
         </div>
     </div>
 
