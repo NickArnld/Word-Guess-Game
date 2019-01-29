@@ -10,37 +10,33 @@
     <script src="./assets/javascript/game.js"></script>
 </head>
 <body>
-    <div class="jumbotron">
-        <h1 class="">HANGMAN</h1>
+    <div class="jumbotron">        
+        <h1 class="">GIF-MAN</h1>
+        <p>It's like hangman ...except no one dies... and there's gifs</p>
+        <p id="mOverRules">Mouse Over to See Rules</p>
+        <div id="rules-div"></div>
+        <div class="gif-col">
+            <img id="gif" src="https://media.giphy.com/media/dzaUX7CAG0Ihi/giphy.gif"/>
+        </div>
     </div>
     <div class="row">
-        <div class="col-10 main">
-            <h3 class="rules">Rules:</h3>
-            <div class="rules-div">
-                <p>
-                    Try to guess the word!
-                    <br>
-                    Type each letter you guess into your keyboard!
-                    <br>
-                    You have 15 tries, good luck!
-                </p>
-            </div>
-            <div class="row">
-                <div class="col-5 top">
-                    <h4>Letters Guessed:</h4>
-                    <p id="guessesMade"></p>
-                </div>
-                <div class="col-5 top">
-                    <h4>Guesses Remaining:</h4>
-                    <h5 id="guessRemaining"></h5>
-                </div>
-            </div>
+        <div class="col-10 main"> 
+            
             <div class="row">
                 <div class="col-7 bot">
                     <h4>Your Guess:</h4>
                     <h4 id="curGuess"></h4>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-5 top">
+                    <h4>Guesses Remaining:</h4>
+                    <h5 id="guessRemaining"></h5>
+                    <h4>Letters Guessed:</h4>
+                    <p id="guessesMade"></p>                    
+                </div>
+            </div>
+            <button id="resetButton" type="button" class="btn btn-primary">Restart</button>            
         </div>
     </div>
 

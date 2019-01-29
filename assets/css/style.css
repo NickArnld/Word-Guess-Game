@@ -3,15 +3,18 @@ body{
 }
 div.jumbotron{
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
 }
 div.main{
     margin: auto;
     text-align: center;
     background-color: antiquewhite;
 }
-div.top, div.bot{
+div.top, div.bot, div.gif-col{
     padding-top: 10px;
-    padding-bottom: 20px;    
+    padding-bottom: 10px;    
     text-align: center;
     margin: auto;    
 }
@@ -20,4 +23,28 @@ div.top{
 }
 div.bot{
     background-color: rgb(196, 212, 255);
+}
+#resetButton{
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+img#gif{
+    width: 300px;
+    height: 200px;
+    margin: 0;
+}
+#mOverRules{
+    width: 50%;
+    margin: auto;
+    color: white;
+    background-color: blueviolet;
+    margin-bottom:20px;
+}
+div#rules-div p{
+    width: 70%;
+    margin: auto;
+    margin-top:0px;
+    margin-bottom:20px;
+    border-style: dashed;
+    border-color: black;
 }
