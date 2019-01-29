@@ -39,7 +39,7 @@ function init(){
 function initWordSet(){
     var curGuess = document.getElementById('curGuess');    
     var postString = "";
-    console.log(curWord);
+    // console.log(curWord);
 
     for(x in curWord){
         postString += "_";
